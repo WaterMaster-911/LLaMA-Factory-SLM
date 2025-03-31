@@ -839,5 +839,37 @@
       "response": "output",
       "system": "system"
     }
+  },
+  "long_cot_1000": {
+    "file_name": "long_cot/long_cot_1000.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "long_cot_2000": {
+    "file_name": "long_cot/long_cot_2000.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "long_cot_3000": {
+    "file_name": "long_cot/long_cot_3000.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system"
+    }
+  },
+  "long_cot_4000": {
+    "file_name": "long_cot/long_cot_4000.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system"
+    }
   }
 }
