@@ -1,0 +1,19 @@
+# lenght_exp/accelerate/fsdp_config.yaml
+FSDP配置
+需要修改 num_processes 为卡的数量
+
+# lenght_exp/train/train_limo_all.sh
+批量训练脚本
+需要修改 GPU_IDS 设置运行的卡ID
+START=2000 END=2000 STEP=1000，实验开始的Token长度，结束的Toekn长度，每次实验间隔的值 
+
+
+# lenght_exp/fsdp_qlora/qwen_math_lora_sft.yaml
+基础的 Qwen/Qwen2.5-Math-1.5B FSDP qlora配置文件
+需要修改 base模型路径
+需要修改 cutoff_len 长度，lim项目里的默认长度为 16384
+
+# lenght_exp/export/export_all.sh
+Lora合并批量导出脚本
+导出的模型会被保存在 lenght_exp/eva_model/Qwen2.5-Math-1.5B-limo-2000
+
